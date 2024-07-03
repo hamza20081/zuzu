@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friseurladen Terminbuchung</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Friseurladen Terminbuchung</h1>
+    </header>
+    
+    <section id="booking">
+        <h2>Termin buchen</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Datum:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Uhrzeit:</label>
+            <select id="time" name="time" required></select>
+            
+            <button type="submit">Termin buchen</button>
+        </form>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Friseurladen. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
